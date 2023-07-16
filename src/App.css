@@ -1,0 +1,135 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.landing{
+  display: flex;
+  flex-direction: row;
+}
+.general-info {
+  /* background-color: red; */
+  width: 45%;
+  margin-right: 32px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 0;
+  top: 0
+}
+
+.projects-info {
+  width: 55%;
+}
+
+.name {
+  font-size: 63px;
+  font-weight: bolder;
+  margin: 0px;
+}
+
+.title {
+  font-size: 27px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.description {
+  font-size: 13.5px;
+}
+
+.personal-links{
+  display: flex;
+  flex-direction: row;
+}
+
+.links {
+  margin: 14.4px;
+  margin-left: 0px;
+  color: white;
+  text-decoration: none;
+}
+
+.stack{
+  display: flex;
+  flex-direction: row;
+}
+.tech-title {
+  font-weight: 600;
+  margin-bottom: 0px;
+  font-size: 13.5px;
+}
+
+.projects-title{
+  font-weight: 600;
+  font-size: 13.5px; 
+  margin-bottom: 10px;
+}
+
+.tech-links {
+  margin: 14.4px;
+  margin-left: 0px;
+}
+
+.card{
+  background-color:black;
+  margin-bottom: 10px;
+  height: 150px;
+  overflow: hidden;
+  padding: 1.5rem;
+  margin-left: 10px;
+  transition: all .4s ease;
+  width: 43vw
+}
+
+.projects-info :hover {  
+  cursor: pointer;
+  max-height: 300px;
+  transform: translate3D(0,-1px,0) scale(1.10);
+  transition: all .4s ease;
+}
+
+.project-title {
+  font-weight: 500;
+}
+
+.card :hover{
+  transform: none;
+}
+
+.logo-and-link {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-links{
+  text-decoration: none;
+  color: white;
+}
+
+.description-card{
+  font-size: 10.8px;
+  color: #949495;
+}
+
+.card-stack {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-tech{
+  margin: 16px;
+  margin-left: 0px;
+  font-size: 10.8px;
+  color: #949495;
+}
+
+.logos {
+  width: 20px;
+  margin-right: 10px;
+}
