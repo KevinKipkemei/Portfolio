@@ -153,4 +153,9 @@
   .projects-info {
     width: 100%;
   }
+
+  .logos {
+    width: 15px;
+    margin-right: 5px;
+  }
 }
