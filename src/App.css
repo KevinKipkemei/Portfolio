@@ -132,7 +132,8 @@
 
 @media (max-width: 990px) {
   #root {
-    padding: 2rem;
+    padding: 30px;
+    margin: 0 auto;
   }
 
   .general-info {
