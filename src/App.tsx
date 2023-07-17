@@ -12,7 +12,7 @@ function App() {
           <p className="title">Front-End Developer</p>
         </div>
         <div className="personal-links">
-          <a className="links" href="">
+          <a className="links" href="https://github.com/KevinKipkemei">
             <div className="logo-and-link">
               <img className="logos" src={Github} />
               <p>Github</p>
@@ -24,7 +24,7 @@ function App() {
               <p>Linked In</p>
             </div>
           </a>
-          <a className="links" href="">
+          <a className="links" href="https://drive.google.com/file/d/1pvROgDxHsGjNTJict88hRhD4Ilo8cdB9/view?pli=1">
             <div className="logo-and-link">
               <img className="logos" src={Link} />
               <p>Résumé</p>

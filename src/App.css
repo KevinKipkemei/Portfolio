@@ -7,10 +7,6 @@
   align-items: flex-end;
 }
 
-.landing{
-  display: flex;
-  flex-direction: row;
-}
 .general-info {
   /* background-color: red; */
   width: 45%;
@@ -20,7 +16,7 @@
   flex-direction: column;
   position: fixed;
   left: 0;
-  top: 0
+  top: 0;
 }
 
 .projects-info {
@@ -43,7 +39,7 @@
   font-size: 13.5px;
 }
 
-.personal-links{
+.personal-links {
   display: flex;
   flex-direction: row;
 }
@@ -55,7 +51,7 @@
   text-decoration: none;
 }
 
-.stack{
+.stack {
   display: flex;
   flex-direction: row;
 }
@@ -65,9 +61,9 @@
   font-size: 13.5px;
 }
 
-.projects-title{
+.projects-title {
   font-weight: 600;
-  font-size: 13.5px; 
+  font-size: 13.5px;
   margin-bottom: 10px;
 }
 
@@ -76,29 +72,29 @@
   margin-left: 0px;
 }
 
-.card{
-  background-color:black;
+.card {
+  background-color: black;
   margin-bottom: 10px;
   height: 150px;
   overflow: hidden;
   padding: 1.5rem;
   margin-left: 10px;
-  transition: all .4s ease;
-  width: 43vw
+  transition: all 0.4s ease;
+  width: 43vw;
 }
 
-.projects-info :hover {  
+.projects-info :hover {
   cursor: pointer;
   max-height: 300px;
-  transform: translate3D(0,-1px,0) scale(1.10);
-  transition: all .4s ease;
+  transform: translate3D(0, -1px, 0) scale(1.1);
+  transition: all 0.4s ease;
 }
 
 .project-title {
   font-weight: 500;
 }
 
-.card :hover{
+.card :hover {
   transform: none;
 }
 
@@ -107,12 +103,12 @@
   flex-direction: row;
 }
 
-.card-links{
+.card-links {
   text-decoration: none;
   color: white;
 }
 
-.description-card{
+.description-card {
   font-size: 10.8px;
   color: #949495;
 }
@@ -122,7 +118,7 @@
   flex-direction: row;
 }
 
-.card-tech{
+.card-tech {
   margin: 16px;
   margin-left: 0px;
   font-size: 10.8px;
@@ -130,6 +126,30 @@
 }
 
 .logos {
-  width: 20px;
+  width: 18px;
   margin-right: 10px;
+}
+
+@media (max-width: 990px) {
+  #root {
+    padding: 2rem;
+  }
+
+  .general-info {
+    position: static;
+    width: auto;
+  }
+
+  .card {
+    background-color: black;
+    margin-bottom: 10px;
+    height: 200px;
+    padding: 1.5rem;
+    margin-left: 10px;
+    width: auto;
+  }
+
+  .projects-info {
+    width: 100%;
+  }
 }
