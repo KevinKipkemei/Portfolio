@@ -24,7 +24,10 @@ function App() {
               <p>Linked In</p>
             </div>
           </a>
-          <a className="links" href="https://drive.google.com/file/d/1pvROgDxHsGjNTJict88hRhD4Ilo8cdB9/view?pli=1">
+          <a
+            className="links"
+            href="https://drive.google.com/file/d/1pvROgDxHsGjNTJict88hRhD4Ilo8cdB9/view?pli=1"
+          >
             <div className="logo-and-link">
               <img className="logos" src={Link} />
               <p>Résumé</p>
@@ -54,8 +57,10 @@ function App() {
           <p className="tech-links">React Native</p>
         </div>
         <div>
-        <p className="tech-title">Contact</p>
-        <a href = "mailto:kevinkemei90@gmail.com" className = 'links'>kevinkemei90@gmail.com</a>
+          <p className="tech-title">Contact</p>
+          <a href="mailto:kevinkemei90@gmail.com" className="links">
+            kevinkemei90@gmail.com
+          </a>
         </div>
       </div>
       <div className="projects-info">
@@ -111,7 +116,22 @@ function App() {
           </div>
         </div>
         <div className="card">
-          <p className="project-title">FIELD TEAMS MANAGEMENT SYSTEM</p>
+          <p className="project-title">TRAVEL ADVISORY WEB APPLICATION</p>
+          <p className="description-card">
+            This is a web application that acts as a travel companion. The app
+            interacts with Google Maps API along with a travel advisory API to
+            provide suggestions for restaurants, tourist attractions around the
+            user's location. The recommendations are accompanied with their
+            respective Google Maps ratings, as well as awards and cuisines
+            served with regards to restaurants.
+          </p>
+          <div className="card-stack">
+            <p className="card-tech">React</p>
+            <p className="card-tech">Typecript</p>
+            <p className="card-tech">Google Maps API</p>
+            <p className="card-tech">Travel Advisory API</p>
+            <p className="card-tech">Axios</p>
+          </div>
         </div>
       </div>
     </div>
