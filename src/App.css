@@ -198,6 +198,17 @@
     width: 15px;
     margin-right: 5px;
   }
+
+  .projects-info :hover {
+    cursor: pointer;
+    max-height: 300px;
+    transform: translate3D(0, -1px, 0) scale(1.03);
+    transition: all 0.4s ease;
+  }
+
+  .card :hover {
+    transform: none;
+  }  
 }
 
 
