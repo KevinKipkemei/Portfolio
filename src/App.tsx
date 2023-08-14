@@ -56,7 +56,7 @@ function App() {
           <p className="tech-links">Firebase</p>
           <p className="tech-links">React Native</p>
         </div>
-        <div>
+        <div className = 'emailcontact'>
           <p className="tech-title">Contact</p>
           <a href="mailto:kevinkemei90@gmail.com" className="links">
             kevinkemei90@gmail.com
@@ -68,6 +68,11 @@ function App() {
         <a className="card-links" href="https://www.google.com">
           <div className="card">
             <p className="project-title">TIXLY - TICKET SELLING WEBSITE</p>
+            <div className="status">
+              <p className="description-card">Status : </p>
+              <div className="status-indicator"></div>
+              <p className="description-card">Coming Soon </p>
+            </div>
             <p className="description-card">
               This is a ticket selling website, complete with two payment
               gateways, Stripe to handle card payments, and M-PESA to handle
@@ -85,6 +90,11 @@ function App() {
         </a>
         <div className="card">
           <p className="project-title">FIELD TEAMS MANAGEMENT SYSTEM</p>
+          <div className="status">
+            <p className="description-card">Status : </p>
+            <div className="status-indicator"></div>
+            <p className="description-card">Coming Soon </p>
+          </div>
           <p className="description-card">
             This is a website that allows managers to remotely manage and track
             field teams. Tracking is done using the Google Maps API, while
@@ -101,6 +111,11 @@ function App() {
         </div>
         <div className="card">
           <p className="project-title">TREE MAPPING MOBILE APP</p>
+          <div className="status">
+            <p className="description-card">Status : </p>
+            <div className="status-indicator"></div>
+            <p className="description-card">Coming Soon </p>
+          </div>
           <p className="description-card">
             This is a hybrid mobile app that allows users to take record of and
             map tree planting exercises. The app makes use of native features
@@ -117,6 +132,11 @@ function App() {
         </div>
         <div className="card">
           <p className="project-title">TRAVEL ADVISORY WEB APPLICATION</p>
+          <div className="status">
+            <p className="description-card">Status : </p>
+            <div className="status-indicator"></div>
+            <p className="description-card">Coming Soon </p>
+          </div>
           <p className="description-card">
             This is a web application that acts as a travel companion. The app
             interacts with Google Maps API along with a travel advisory API to
