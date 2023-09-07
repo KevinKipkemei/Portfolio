@@ -56,7 +56,7 @@ function App() {
           <p className="tech-links">Firebase</p>
           <p className="tech-links">React Native</p>
         </div>
-        <div className = 'emailcontact'>
+        <div className="emailcontact">
           <p className="tech-title">Contact</p>
           <a href="mailto:kevinkemei90@gmail.com" className="links">
             kevinkemei90@gmail.com
@@ -65,7 +65,30 @@ function App() {
       </div>
       <div className="projects-info">
         <p className="projects-title">PROJECTS</p>
-        <a className="card-links" href="https://www.google.com">
+        <a className="card-links" href="https://car-safety-and-reliability-6an7.vercel.app/">
+          <div className="card">
+            <p className="project-title">CAR SAFETY AND RELIABITY CHECK</p>
+            <div className="status">
+              <p className="description-card">Status : </p>
+              <div className="status-indicator-live"></div>
+              <p className="description-card">Live </p>
+            </div>
+            <p className="description-card">
+              This site allows users to input essential vehicle details, the
+              car's make, model, and model year. Subsequently, it
+              cross-references this information with the National Highway
+              Traffic Safety Administration (NHTSA) API then furnishes users
+              with comprehensive data regarding manufacturer recalls, should any
+              exist, alongside customer complaints originating from fellow
+              owners of the identical vehicle.
+            </p>
+            <div className="card-stack">
+              <p className="card-tech">React</p>
+              <p className="card-tech">Typescript</p>
+              <p className="card-tech">Vite</p>
+              <p className="card-tech">NHTSA API</p>
+            </div>
+          </div>
           <div className="card">
             <p className="project-title">TIXLY - TICKET SELLING WEBSITE</p>
             <div className="status">

@@ -27,6 +27,15 @@
   margin-left: 5px;
 }
 
+.status-indicator-live{
+  background-color: #50e3c2;
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
 .general-info {
   /* background-color: red; */
   width: 45%;
@@ -164,7 +173,7 @@
   .card {
     background-color: black;
     margin-bottom: 10px;
-    height: 200px;
+    height: auto;
     padding: 1.5rem;
     margin-left: 0px;
     width: auto;
